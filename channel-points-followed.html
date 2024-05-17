@@ -1,9 +1,9 @@
 <html>
-<title> Channel Points 100 Followers Lookup </title>
+<title> Channel Points 200 Followers Lookup </title>
 <body>
 
 
-<button onclick="getFollowers()">Get 100 Followed Channels</button>
+<button onclick="getFollowers()">Get 200 Followed Channels</button>
 
 <table id="table">
 </table>
@@ -33,7 +33,7 @@ function getFollowers() {
 	var body = JSON.stringify({
 	  "operationName": "ChannelFollows",
 	  "variables": {
-	    "limit": 100,
+	    "limit": 200,
 	    "order": "DESC"
 	  },
 	  "extensions": {
